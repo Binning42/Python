@@ -1,0 +1,15 @@
+L = [['Apple', 'Google', 'Microsoft'], ['Java', 'Python', 'Ruby', 'PHP'],
+     ['Adam', 'Bart', 'Lisa']]
+print(L[0][0], L[1][1], L[2][2])
+L[1].pop(2)
+print(L)
+L[1].insert(2, 'Ruby')
+print(L)
+L[2].pop()
+print(L)
+L.pop()
+print(L)
+L.append(['Bob'])
+print(L)
+L[2].append('Tracy')
+print(L)

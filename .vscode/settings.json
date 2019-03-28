@@ -1,4 +1,7 @@
 {
     "code-runner.runInTerminal": true,
-    "python.formatting.provider": "yapf"
+    "python.formatting.provider": "yapf",
+    "python.pythonPath": "C:\\Program Files (x86)\\Python37-32\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }
